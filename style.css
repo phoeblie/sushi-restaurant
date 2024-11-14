@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    background-color: #9BA31A;
+    color: white;
+    border: none;
+    padding: 8px 35px;
+    font-family: Jost, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #8A9024;
+}
+
+/* For the header */
+header {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.header-container {
+    padding: 0 20px;
+    position:relative;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    font-family: Joan, Georgia, serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #a7a7a7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position:absolute;
+    right: 100px;
+    top:0px;
+}
+
+/* For the section image */
+.image {
+    background-image: url(../images/history-section-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    transition: ease-in-out;
+    transition-duration: 4s;
+  }
+
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-left: 375px;
+    padding: 60px;
+    position: relative;
+    top: 50%;
+    width: 50%;
+    color: #ffffff;
+  }
+
+  .subcaption {
+    display: block;
+    font-family: Joan, Georgia, serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    margin-left: 650px;
+    padding: 60px;
+    position: relative;
+    top: 34%;
+    width: 50%;
+    color: rgb(255, 255, 255);
+  }
+
+  /* For the main content */
+  main { background-image: url(../images/history-page-background.jpg);
+    background-repeat: cover;
+    background-size: 100%;
+    padding-top: 50px;
+    margin: 0px;
+  }
+
+  .container {
+    display: flex;
+    gap: 7%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+  }
+
+  .article-body {
+    padding-top: 100px;
+  }
+
+/* Section 1 */
+  .text-section {
+    padding-bottom: 40px;
+    font-family: Jost, sans-serif;
+    letter-spacing: .2px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+  
+  .thumbnail-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .thumbnail-row img {
+    width: calc(25% - 10px);
+  }
+
+  .quote-section {
+    display: flex;
+    background-color: #4F4F4F;
+    color: #ffffff;
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    width: 120%;
+    height: fit-content;
+  }
+  
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-name{
+  font-family: Joan, Georgia, serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.profile-title {
+  font-family: Jost, sans-serif;
+      letter-spacing: .2px;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 16px;
+      color: #A3A999;
+}
+
+blockquote {
+  padding-top: 25px;
+}
+
+.quote-text {
+  font-family: Playfair Display, Georgia, serif;
+  padding: 0 7px;
+  letter-spacing: .6px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 22px;
+}
+  .quote-content {
+    text-align: left;
+  }
+
+/* Section 2 */
+.text-body-section {
+    padding-bottom: 40px;
+    font-family: Jost, sans-serif;
+    letter-spacing: .2px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+h2 {
+    padding-bottom: 20px;
+    font-family: Joan, Georgia, serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: #4F4F4F;
+}
+
+.making-sushi {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+h1{
+  font-family: Joan, Georgia, serif;
+  font-size: 52px;
+  font-weight: 100;
+  color: #4F4F4F;
+}
+
+/* Recipie Link Section */
+
+hr{
+    margin: 50px 0px;
+
+}
+.sushi-section {
+    text-align: center;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 50px;
+}
+
+.sushi-recipes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+.recipe-card {
+    border-radius: 8px;
+    text-align: left;
+  }
+
+h3.recipe-card {
+    padding: 12px 0;
+    font-family: Joan, Georgia, serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+p.recipe-card {
+  font-family: Jost, sans-serif;
+      letter-spacing: .2px;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 16px;
+}
+/* Info Class */
+.info-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-bottom: 100px;
+    margin: 0 9%;
+  }
+  
+.ingredients-card {
+    position: relative;
+    display: flex;
+    width: 570px;
+    min-height: 250px;
+    align-items: end;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-image: url(../images/shop-ingredients.jpg);
+  }
+  
+
+  #ingredients-card.ingredients-info { 
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  h4 {
+    font-family: Jost, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color:#ffffff;
+  }
+
+  p.ingredients-info {
+    font-family: Jost, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color:#ffffff;
+  }
+
+.author-card {
+    display: flex;
+    align-items: center;
+    background-color: #d1d7c8;
+    max-width: 600px;
+  }
+
+  .author-image {
+    position: relative;
+  }
+  
+  .author-image img {
+    width: 250px;
+    height: 254px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .author-name {
+    position: absolute;
+    bottom: 15px;
+    background-color: #9BA31A;
+    color: white;
+    padding: 5px 12px;
+    font-family: Playfair Display, Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: .5px;
+  }
+
+  .author-info {
+    margin: 0 20px;
+  }
+
+  .author-info h4 {
+    color: #5c6d56;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .author-info p {
+    color: #333;
+    line-height: 1.4;
+    font-size: 14px;
+    font-family: Jost, sans-serif;
+    letter-spacing: .2px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  
+  .author-info a {
+    font-family: Jost, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+  }
+
+  .author-info a:hover {
+    color: #8A9024;
+  }
+
+/* For the Footer */
+
+footer{
+    background-image: url(../images/footer-background.jpg)
+    
+}
+
+.footer-content {
+    padding: 40px 9%;
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-nav {
+  flex-grow: 1;
+}
+
+.footer-nav a {
+    font-family: Jost, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: flex;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+  color: #5c6d56;
+}
+.newsletter {
+    display: flex;
+    text-align: left;
+    background-color: #F7F7F7;
+    padding: 30px 30px;
+    height: 75px;
+    align-items: center;
+}
+
+.newsletter p {
+    display: flex;
+    font-size: 15px;
+    font-family: Joan, Georgia, serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: .5px;
+    padding-right: 30px;
+    color: #666;
+}
+
+.newsletter form {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.newsletter input[type="email"] {
+    padding: 8px;
+    font-family: Jost, sans-serif;
+    letter-spacing: .2px;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+}
+
+.newsletter button {
+    padding: 5px 20px;
+    font-family: Jost, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #A3A999;
+    color: #4F4F4F;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+    color: #A3A999;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #666;
+}
+
